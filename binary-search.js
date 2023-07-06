@@ -5,6 +5,7 @@ const input = [0, 0, 2, 3, 5, 6, 7, 8, 10, 12, 55];
 // task:
 // get boolean if x is inside the list
 
+// solution
 function binarySearch(input, value) {
   let pointer = Math.ceil(input.length / 2);
   console.log('binarySearch', JSON.stringify(input), value);
@@ -26,6 +27,7 @@ function binarySearch(input, value) {
   }
 }
 
+// playground
 const x = 5;
 const index = binarySearch(input, x);
 console.log('result', index);
