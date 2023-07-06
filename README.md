@@ -1,5 +1,7 @@
 # algorithms
 
+My solutions to known data processing problems.
+
 - [binary search](./binary-search.js) - assumptions:
   - argument must be `sorted list`
 - bfs - Breadth-first search
