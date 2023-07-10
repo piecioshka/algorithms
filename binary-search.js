@@ -1,33 +1,40 @@
-// assumptions
+const { time } = require('./utils/time');
+const { sortedNumbers } = require('./data/sorted-numbers');
+
+// assumptions:
 // - sorted list in non-decreasing
-const input = [0, 0, 2, 3, 5, 6, 7, 8, 10, 12, 55];
+const input = sortedNumbers;
 
 // task:
-// get boolean if x is inside the list
+// get index of x
 
 // solution
-function binarySearch(input, value) {
-  let pointer = Math.ceil(input.length / 2);
-  console.log('binarySearch', JSON.stringify(input), value);
+function binarySearch(
+  input,
+  target,
+  startIndex = 0,
+  endIndex = input.length - 1,
+) {
+  const middleIndex = Math.floor((startIndex + endIndex) / 2);
+  const pointer = input[middleIndex];
+  console.log('binarySearch', { pointer, target });
 
-  if (input.length === 0) {
-    return false;
+  if (pointer === target) {
+    return middleIndex;
   }
 
-  if (input.length === 1) {
-    return input[0] === value;
+  if (pointer < target) {
+    // right
+    return binarySearch(input, target, middleIndex + 1, endIndex);
+  } else if (pointer > target) {
+    // left
+    return binarySearch(input, target, startIndex, middleIndex - 1);
   }
 
-  if (input[pointer] === value) {
-    return true;
-  } else if (input[pointer] > value) {
-    return binarySearch(input.slice(0, pointer), value);
-  } else {
-    return binarySearch(input.slice(pointer, input.length), value);
-  }
+  return -1;
 }
 
 // playground
-const x = 5;
-const index = binarySearch(input, x);
-console.log('result', index);
+const x = 777;
+const index = time(() => binarySearch(input, x));
+console.log('result', { x, index });
