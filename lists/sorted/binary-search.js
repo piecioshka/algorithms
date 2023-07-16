@@ -1,5 +1,5 @@
-const { time } = require('./utils/time');
-const { sortedNumbers } = require('./data/sorted-numbers');
+const { time } = require('../../utils/time');
+const { sortedNumbers } = require('../../data/sorted-numbers');
 
 // assumptions:
 // - sorted list in non-decreasing
