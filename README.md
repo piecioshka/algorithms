@@ -25,6 +25,7 @@ My solutions to known data processing problems.
 - [print-post-order](./trees/binary/print-post-order.js) — order: Left, Right, Root
 - [max-depth](./trees/binary/max-depth.js)
 - [longest-path](./trees/binary/longest-path.js)
+- [is-the-same](./trees/binary/is-the-same.js)
 
 ## Stack
 
