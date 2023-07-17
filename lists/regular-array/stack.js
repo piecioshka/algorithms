@@ -1,4 +1,4 @@
-const { assertDefined } = require('../utils/assertions');
+const { assertDefined } = require('../../utils/assertions');
 
 class Stack {
   internal = [];

@@ -4,6 +4,10 @@ My solutions to known data processing problems.
 
 ## Lists
 
+### Regular array
+
+- [stack](./lists/regular-array/stack.js) - strategy: LIFO
+
 ### Unordered Lists
 
 - [linear search](./lists/sorted/linear-search.js)
@@ -11,6 +15,11 @@ My solutions to known data processing problems.
 ### Sorted Lists
 
 - [binary search](./lists/unordered/binary-search.js)
+
+## Linked Lists
+
+- [queue](./linked-lists/queue.js) - strategy: FIFO
+- [has-cycle](./linked-lists/has-cycle.js)
 
 ## Trees
 
@@ -27,11 +36,6 @@ My solutions to known data processing problems.
 - [longest-path](./trees/binary/longest-path.js)
 - [is-the-same](./trees/binary/is-the-same.js)
 - [invert-tree](./trees/binary/invert-tree.js)
-
-## Stack
-
-- [stack](./stacks/stack.js) - strategy: LIFO
-- [queue](./queues/queue.js) - strategy: FIFO
 
 ## Plan
 
