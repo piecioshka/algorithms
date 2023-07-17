@@ -5,14 +5,19 @@ function hasCycle(head) {
     return false;
   }
 
-  const normal = head.next();
-  const speed = head.next().next();
+  let slow = head;
+  let fast = head.next();
 
-  if (normal.value === speed.value) {
-    return true;
+  while (slow !== null && fast != null && fast.next() != null) {
+    if (slow == fast) {
+      return true;
+    }
+
+    slow = slow.next();
+    fast = fast.next().next();
   }
 
-  return hasCycle(normal);
+  return false;
 }
 
 const result = hasCycle(linkedListWithCycle);

@@ -57,3 +57,5 @@ My solutions to known data processing problems.
   - https://www.youtube.com/watch?v=oSWTXtMglKE - Data Structures: Trees [HackerRank]
 - stacks & queues
   - https://www.youtube.com/watch?v=wjI1WNcIntg - Data Structures: Stacks and Queues [HackerRank]
+- linked list
+  - https://www.youtube.com/watch?v=MFOAbpfrJ8g - Data Structures: Cycles in a Linked List [HackerRank]
