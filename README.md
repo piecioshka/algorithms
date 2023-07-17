@@ -23,6 +23,8 @@ My solutions to known data processing problems.
 - [print-in-order](./trees/binary/print-in-order.js) — order: Left, Root, Right
 - [print-pre-order](./trees/binary/print-pre-order.js) — order: Root, Left, Right
 - [print-post-order](./trees/binary/print-post-order.js) — order: Left, Right, Root
+- [max-depth](./trees/binary/max-depth.js)
+- [longest-path](./trees/binary/longest-path.js)
 
 ## Stack
 
