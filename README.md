@@ -26,6 +26,7 @@ My solutions to known data processing problems.
 - [max-depth](./trees/binary/max-depth.js)
 - [longest-path](./trees/binary/longest-path.js)
 - [is-the-same](./trees/binary/is-the-same.js)
+- [invert-tree](./trees/binary/invert-tree.js)
 
 ## Stack
 
