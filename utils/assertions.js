@@ -1,5 +1,5 @@
-function assertDefined(value, errMessage = 'Assertion Failed', okMessage) {
-  if (!value) {
+function assertDefined(condition, errMessage = 'Assertion Failed', okMessage) {
+  if (!condition) {
     console.error(errMessage);
   } else if (okMessage) {
     console.log(okMessage);

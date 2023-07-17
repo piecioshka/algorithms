@@ -36,6 +36,7 @@ My solutions to known data processing problems.
 - [longest-path](./trees/binary/longest-path.js)
 - [is-the-same](./trees/binary/is-the-same.js)
 - [invert-tree](./trees/binary/invert-tree.js)
+- [is-valid-tree](./trees/binary/is-valid-tree.js)
 
 ## Plan
 
@@ -49,6 +50,7 @@ My solutions to known data processing problems.
 - binary search
   - https://www.youtube.com/watch?v=KXJSjte_OAI - How Binary Search Makes Computers Much, Much Faster [TomScott]
   - https://www.youtube.com/watch?v=MFhxShGxHWc - Binary Search Algorithm in 100 Seconds [FireShip]
+  - https://www.youtube.com/watch?v=i_Q0v_Ct5lY - Data Structures: Binary Search Tree [HackerRank]
 - linear search
   - https://www.youtube.com/watch?v=KXJSjte_OAI - How Binary Search Makes Computers Much, Much Faster [TomScott]
 - trees
