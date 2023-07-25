@@ -1,4 +1,4 @@
-const { binaryTreeNumbers } = require('../data/binary-tree-numbers');
+const { binaryTreeNumbers } = require('../../data/binary-tree-numbers');
 
 function sumBinaryTree(node) {
   if (!node) {
