@@ -41,6 +41,7 @@ My solutions to known data processing problems.
 ## Plan
 
 - bfs - Breadth-first search
+  - https://www.youtube.com/shorts/I32EH1K4u6k
 - dfs - Depth-first search
 
 ---
